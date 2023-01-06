@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&family=Mulish:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+h2,
+h3 {
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+li {
+   list-style: none;
+}
+
+
+
+.header-container {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(/images/donation13.jpg);
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   background-position: center !important;
+   width: 100%;
+   height: 100vh;
+
+}
+
+.header-content {
+   padding: 30px 200px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar-content ul {
+   display: flex;
+   gap: 60px;
+   justify-content: space-between;
+}
+
+.navbar-content a {
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo img {
+   width: 160px;
+   height: 46px;
+   cursor: pointer;
+}
+
+.banner-container {
+   padding: 70px 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.banner-title {
+   color: #fff;
+   text-align: center;
+}
+
+.banner-title h2 {
+   margin-bottom: 20px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 62px;
+   line-height: 79px;
+   text-align: center;
+}
+
+.banner-title p {
+   margin-bottom: 30px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   font-family: 'Mulish', sans-serif;
+}
+
+.btn {
+   /* margin-top: 20px; */
+   font-family: 'Josefin Sans', sans-serif;
+   color: #fff;
+   border: none;
+   background-color: #FF5959;
+   border-radius: 5px;
+   padding: 20px 20px;
+   font-size: 20px;
+   cursor: pointer;
+   width: 200px;
+   margin: 0 auto;
+}
+
+.btn:hover {
+   background-color: #df4726;
+   transition: .5s;
+}
+
+.donation {
+   margin: 0;
+   /* height: 100vh; */
+   padding: 130px 100px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.donation .btn{
+   font-family: 'Josefin Sans', sans-serif;
+   color: #fff;
+   border: none;
+   background-color: #FF5959;
+   border-radius: 5px;
+   padding: 20px 20px;
+   font-size: 20px;
+   cursor: pointer;
+   width: 200px;
+   margin: 0 auto;
+}
+
+.section-title {
+   text-align: center;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 54px;
+   color: #121212;
+   margin-bottom: 20px;
+}
+
+.section-description {
+   font-family: 'Mulish', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   text-align: center;
+   color: #707070;
+}
+
+.donation-amount {
+   display: flex;
+   gap: 80px;
+   justify-content: space-around;
+   margin-top: 50px;
+   align-items: center;
+   margin-bottom: 60px;
+}
+
+.donation-amount p {
+   font-family: 'Josefin Sans', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 36px;
+   text-align: center;
+   color: #707070;
+}
+
+.donation-amount p:nth-child(2) {
+   background-color: #FFEEEE;
+   border: 2px solid #FF5959;
+   padding: 30px 35px;
+   border-radius: 5px;
+   color: #FF5959;
+}
+
+.donation h4 {
+   font-size: 18px;
+   text-align: center;
+   align-items: center;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #B3B3B3;
+   margin-top: 80px;
+   margin-bottom: 10px;
+}
+button .btn{
+
+}
+.donation-plan{
+   /* margin: 0 200px; */
+   height: 100vh;
+}
+.plan-futures{
+   display: flex;
+}
